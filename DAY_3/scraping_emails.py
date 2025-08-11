@@ -22,7 +22,7 @@ url = "https://zicklin.baruch.cuny.edu/Department/cis-faculty/"
 
 # # make a request to the server
 
-# page= requests.get(url, headers=x, verify = false)
+# page= requests.get(url, headers=x, verify = False)
 # --------------------------------------------
 # WAY TO WRITE IT OR THE ONE ON TOP!!!
 headers = {
@@ -44,11 +44,8 @@ print(page.status_code)
 # we want to see the email with the id call email we need to tell the BOT to look for the paragraph tags only that has id email.
 
 # peek at raw html
-
 # print(page.content)
-
 # import raw html into beautifulsoup
-
 soup = BeautifulSoup(page.content, 'html.parser')
 
 print(soup.prettify())

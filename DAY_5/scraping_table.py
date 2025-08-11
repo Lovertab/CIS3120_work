@@ -7,7 +7,7 @@ import pandas as pd
 
 # Set the URL
 
-url=
+url='https://github.com/Lovertab/CIS3120_work/blob/main/DAY_4/basic_table.html'
 
 
 # Set headers!
